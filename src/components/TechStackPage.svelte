@@ -2,14 +2,14 @@
 	import Logo from "./Logo.svelte";
 
 </script>
-<div class="h-fit w-screen">
+<div class="h-fit   ">
 
     <div class="h-30 flex justify-center items-center">
         <p class="text-3xl">Programming Language</p>
     </div>
 
     <div class="h-30 flex justify-center">
-        <div class="w-3/6 flex justify-around items-start">
+        <div class="w-full md:w-3/6 flex justify-around items-center md:items-start">
             <Logo src="js.png" alt="javascript" isLink={false} size="15"/>
             <Logo src="go.svg" alt="golang" isLink={false} size="15"/>
             <Logo src="java.svg" alt="java" isLink={false} size="15"/>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="h-30 flex justify-center">
-        <div class="w-3/6 flex justify-around items-start">
+        <div class="w-full md:w-3/6 flex justify-around items-center md:items-start">
             <Logo src="/framework/codeigniter.svg" alt="codeigniter" isLink={false} size="15"/>
             <Logo src="/framework/express.png" alt="express" isLink={false} size="15"/>
             <Logo src="/framework/react-2.svg" alt="react" isLink={false} size="15"/>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="h-30 flex justify-center">
-        <div class="w-3/6 flex justify-around items-start">
+        <div class="w-full md:w-3/6 flex justify-around items-center md:items-start">
             <Logo src="/runtime/docker.svg" alt="docker" isLink={false} size="15"/>
             <Logo src="/runtime/Linux.svg" alt="linux" isLink={false} size="15"/>
             <Logo src="/runtime/nodejs.svg" alt="nodeks" isLink={false} size="15"/>

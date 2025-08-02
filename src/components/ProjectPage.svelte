@@ -3,12 +3,12 @@
 	import Project from "./Project.svelte";
 
 </script>
-<div class="h-fit bg-[#EEE]">
+<div class="h-fit w-full bg-[#EEE]">
     <div class="h-30 flex justify-center items-center">
         <p class="text-5xl font-bold">Projects</p>
     </div>
 
-    <div class="h-fit p-5 grid grid-cols-3 gap-10 justify-items-center">
+    <div class="h-fit p-5 grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
 
         <Project
             title="Comdel"
