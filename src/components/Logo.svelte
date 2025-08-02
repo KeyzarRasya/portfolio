@@ -8,8 +8,8 @@
 
 {#if isLink}
   <a href={href}>
-    <img src={src} alt={alt} class={`h-${size} w-${size}`} />
+    <img src={src} alt={alt} class={`h-10 w-10 md:h-${size} w-${size}`} />
   </a>
 {:else}
-  <img src={src} alt={alt} class={`h-${size} w-${size}`} />
+  <img src={src} alt={alt} class={`h-10 w-10 md:h-${size} w-${size}`} />
 {/if}
